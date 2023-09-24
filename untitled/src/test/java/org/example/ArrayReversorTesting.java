@@ -44,8 +44,8 @@ public class ArrayReversorTesting {
         output.add(4);
         output.add(5);
         output.add(3);
-        output.add(0);
         output.add(1);
+        output.add(0);
 
         List<Integer> flattenOutputVal=new ArrayList<>();
         flattenOutputVal.add(1);

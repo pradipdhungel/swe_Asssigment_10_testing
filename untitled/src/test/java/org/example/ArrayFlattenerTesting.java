@@ -27,13 +27,15 @@ public class ArrayFlattenerTesting {
         List<Integer> list3=new ArrayList<>();
         list3.add(4);
         list3.add(5);
+        list3.add(9);
         input.add(list1);
         input.add(list2);
         input.add(list3);
+
         List<Integer> output=new ArrayList<>();
         output.add(1);
-        output.add(0);
         output.add(3);
+        output.add(0);
         output.add(4);
         output.add(5);
         output.add(9);
